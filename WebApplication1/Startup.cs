@@ -29,6 +29,7 @@ namespace WebApplication1
             {
                 app.UseExceptionHandler();
             }
+            app.UseStatusCodePages();
             app.UseMvc();
             //app.Run(async (context) =>
             //{
