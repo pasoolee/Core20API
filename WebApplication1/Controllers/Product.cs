@@ -10,5 +10,11 @@ namespace WebApplication1.Api.Dtos
         public int Id { get; set; }
         public string Name { get; set; }
         public float Price { get; set; }
+        public ICollection<Material> Materials { get; set; }
+    }
+    public class Material
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
